@@ -21,7 +21,7 @@ module.exports = {
       { url: "/tags/", label: "标签" },
       { url: "/about", label: "About" },
     ],
-    footerHTML: `© 2020 <a href="https://github.com/keithnull">Keith Null</a> All rights reserved.`,
+    footerHTML: `© 2020 <a href="https://github.com/brightzoe">brightZoe</a> All rights reserved.`,
     dateFormat: `YYYY-MM-DD`,
     language: `zh`,
   },
@@ -112,8 +112,8 @@ module.exports = {
                     node {
                       excerpt
                       html
-                      fields { 
-                        slug 
+                      fields {
+                        slug
                         date
                       }
                       frontmatter {
@@ -157,11 +157,11 @@ module.exports = {
       resolve: "gatsby-plugin-gitalk",
       options: {
         config: {
-          clientID: "ee045e67607d9cc5d75b",
-          clientSecret: "c0f18c2238127559210f0bf94711a5c345eea7f8",
-          repo: "gatsby-starter-breeze",
-          owner: "keithnull",
-          admin: ["keithnull"],
+          clientID: "a55927b4da06478a7146",
+          clientSecret: "1f4333ac1c31763f24e422a62fda6246fd591bdc",
+          repo: "blog-gitalk",
+          owner: "brightzoe",
+          admin: ["brightzoe"],
           pagerDirection: "last",
           createIssueManually: true,
           distractionFreeMode: true,
